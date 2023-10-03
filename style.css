@@ -1,0 +1,128 @@
+@charset "UTF-8";
+html, body {
+	height: 100%; /*外層高度100%*/
+	margin: 0;
+}
+.wrapper {
+	min-height: 100%; /*外層高度100%*/
+	margin-bottom: -50px; /*隨footer高度需做調整*/
+}
+.contant{
+	padding-bottom: 50px; /*避免文字超出瀏覽器時，內容區塊不會和footer打架*/
+}
+.header {
+	background-color:rgb(114, 151, 173);
+}
+.footer {
+	height: 50px;
+	width:100%;
+	position: absolute;
+	background-color:rgb(114, 151, 173);
+}
+.title{
+	color:black; 
+	font-size:30px; 
+	font-family:DFKai-sb;
+	margin-left: 5%;
+}
+.history_record_table{
+	width: 90%;
+	color:black; 
+	font-size:25px; 
+	font-family:"Times New Roman","標楷體";
+	margin-left: 5%;
+	text-align: center;
+}
+.history_record_page_btn{
+	font-size:20px; 
+	border: 2px solid;
+	border-radius: 8px;
+	font-family:DFKai-sb;
+	background:white;
+	border-color: rgb(186, 225, 250);
+}
+.history_record_search_font{
+	font-size:18px; 
+	font-family:DFKai-sb; 
+	padding: 0px; 
+	text-align: center;
+}
+.attendance_record_table{
+	width: 90%;
+	color:black; 
+	font-size:25px; 
+	font-family:"Times New Roman","標楷體";
+	margin-left: 5%;
+	text-align: center;
+}
+.attendance_record_page_btn{
+	font-size:20px; 
+	border: 2px solid;
+	border-radius: 8px;
+	font-family:DFKai-sb;
+	background:white;
+	border-color: rgb(186, 225, 250);
+}
+.attendance_record_search_font{
+	font-size:18px; 
+	font-family:DFKai-sb; 
+	padding: 0px; 
+	text-align: center;
+}
+.function_list_btn{
+	width: 90%;
+	font-size:23px; 
+	border: 2px solid;
+	font-family:DFKai-sb;
+	background:rgb(255, 251, 245);
+	border-color: rgb(47, 82, 143)
+}
+.system_record{
+	background:rgb(250,235,215);
+	font-size:20px; 
+	padding: 0px;
+	border: 2px solid;
+	border-radius: 8px;
+	font-family:DFKai-sb;
+	font-family:"Times New Roman","標楷體";
+}
+.item_table{
+	width: 80%;
+	color:black; 
+	font-size:25px; 
+	font-family:DFKai-sb;
+	margin-left: 5%;
+	text-align: center;
+	margin-left:auto; 
+	margin-right:auto;
+}
+.item_page_btn{
+	color:red;
+	font-size:20px; 
+	border: 2px solid;
+	border-radius: 8px;
+	font-family:DFKai-sb;
+	background:white;
+	border-color: rgb(186, 225, 250);
+}
+.home_table{
+	width: 100%;
+	color:balack;
+	border-color:black;
+	background:white;
+	font-size:20px; 
+	font-family:DFKai-sb;
+	margin-left: 3%;
+	text-align: center;
+}
+.name{
+	border: black solid ;
+	font-size:16px;
+	border-width:1px; 
+	/* width:60%; */
+	margin-left:auto; 
+	margin-right:auto;
+	margin-top:2px;
+	margin-bottom:2px;
+	font-family:"標楷體";
+}
